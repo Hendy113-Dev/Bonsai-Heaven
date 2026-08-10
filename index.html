@@ -1,88 +1,62 @@
 <!doctype html>
-<html lang="en">
+<html lang="en-GB">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Moore Bonsai — carefully sourced, cultivated and sold bonsai trees in the UK.">
-<title>Moore Bonsai | Curated Bonsai Trees</title>
+<title>Moore Bonsai | Bonsai Trees for Sale in the UK</title>
+<meta name="description" content="Moore Bonsai — carefully sourced, cultivated and sold bonsai trees in the UK. Explore available trees and practical bonsai care notes.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="./">
+<meta property="og:title" content="Moore Bonsai | Bonsai Trees for Sale in the UK">
+<meta property="og:description" content="Carefully sourced, cultivated and sold bonsai trees in the UK.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="images/products/japanese-black-pine.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-<style>
-:root{--ink:#17231d;--green:#20372b;--sage:#72816e;--cream:#f5f1e8;--paper:#fbfaf6;--line:#ddd8cc;--gold:#ad8b52;--white:#fff}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:"DM Sans",sans-serif}a{text-decoration:none;color:inherit}button,input,select,textarea{font:inherit}.nav{position:fixed;z-index:20;top:0;width:100%;padding:18px 5vw;display:flex;align-items:center;justify-content:space-between;color:#fff;transition:.25s}.nav.scrolled{background:#fbfaf6f5;color:var(--ink);box-shadow:0 2px 18px #0001}.brand{font:700 31px "Cormorant Garamond";letter-spacing:.05em}.links{display:flex;gap:25px;font-size:13px}.links a:hover{opacity:.6}.nav-actions{display:flex;align-items:center;gap:15px}.cart-btn,.menu{background:none;border:0;color:inherit;cursor:pointer}.cart-btn{font-size:14px}.badge{display:inline-grid;place-items:center;width:20px;height:20px;border-radius:50%;background:var(--gold);color:#fff;font-size:11px;margin-left:4px}.menu{display:none;font-size:24px}.hero{min-height:92vh;background:linear-gradient(90deg,#06130dbb,#06130d18),url("https://images.unsplash.com/photo-1600166898405-da9535204843?auto=format&fit=crop&w=2200&q=88") center/cover;display:grid;align-items:end;color:#fff}.hero-inner{padding:145px 8vw 90px;max-width:900px}.eyebrow{text-transform:uppercase;letter-spacing:.2em;font-size:11px}.hero h1{font:600 clamp(62px,9vw,120px)/.82 "Cormorant Garamond";margin:18px 0 25px}.hero p{font-size:18px;max-width:600px;color:#f1f1ed}.btn{display:inline-block;padding:14px 23px;border:1px solid var(--green);background:var(--green);color:#fff;cursor:pointer;transition:.2s}.btn:hover{transform:translateY(-2px)}.btn.light{background:var(--cream);border-color:var(--cream);color:var(--green)}.btn.outline{background:transparent;color:var(--green)}section{padding:100px 7vw}.section-head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:40px}.section-head h2{font:600 60px/.9 "Cormorant Garamond";margin:10px 0}.section-head p{max-width:500px;color:#687168}.shopbar{display:flex;justify-content:space-between;gap:15px;margin-bottom:25px}.filters{display:flex;gap:8px;flex-wrap:wrap}.filter{border:1px solid var(--line);background:#fff;padding:10px 14px;cursor:pointer}.filter.active{background:var(--green);color:#fff}.sort{border:1px solid var(--line);padding:10px;background:#fff}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.product{background:#fff;border:1px solid var(--line);position:relative}.product.sold .image{filter:grayscale(.7);opacity:.7}.ribbon{position:absolute;z-index:2;top:12px;left:12px;background:var(--green);color:#fff;padding:7px 10px;font-size:10px;text-transform:uppercase;letter-spacing:.12em}.ribbon.sold{background:#555}.image{aspect-ratio:4/5;background-size:cover;background-position:center}.product-body{padding:20px}.product-body h3{font:600 31px "Cormorant Garamond";margin:7px 0}.meta{color:#727970;font-size:13px}.price{font-weight:600;margin:14px 0}.actions{display:flex;gap:8px}.actions button{flex:1}.story{background:var(--cream);display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}.story-img{min-height:610px;background:url("https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=1400&q=88") center/cover}.story h2,.journal h2,.contact h2{font:600 64px/.9 "Cormorant Garamond";margin:15px 0 25px}.story p{color:#59645c;max-width:620px}.stats{display:flex;gap:40px;margin:35px 0}.stats strong{display:block;font:600 40px "Cormorant Garamond"}.stats span{font-size:11px;text-transform:uppercase;letter-spacing:.1em;color:#6d756d}.gallery{display:grid;grid-template-columns:1.2fr .8fr .9fr;grid-auto-rows:230px;gap:10px}.gallery div{background:center/cover}.tall{grid-row:span 2}.wide{grid-column:span 2}.journal{background:var(--green);color:#fff}.journal .section-head p{color:#c8d0ca}.journal .card{background:#fff;color:var(--ink);border:0}.cardimg{aspect-ratio:16/10;background:center/cover}.cardbody{padding:22px}.cardbody h3{font:600 31px "Cormorant Garamond";margin:8px 0}.contact{display:grid;grid-template-columns:.85fr 1.15fr;gap:90px}.form{display:grid;gap:12px}.form input,.form textarea{border:1px solid var(--line);padding:15px;background:#fff;outline:none}.form textarea{min-height:170px;resize:vertical}.success{display:none;background:#e6eee7;padding:15px;color:#28422f}.modal-bg{display:none;position:fixed;z-index:40;inset:0;background:#07130db8;padding:5vh 5vw;overflow:auto}.modal{max-width:980px;margin:auto;background:var(--paper);display:grid;grid-template-columns:1fr 1fr;position:relative}.modal-image{min-height:600px;background:center/cover}.modal-body{padding:45px}.close{position:absolute;right:15px;top:10px;border:0;background:none;font-size:30px;cursor:pointer}.modal h2{font:600 56px/.9 "Cormorant Garamond";margin:12px 0}.cart-panel{position:fixed;z-index:50;right:-430px;top:0;width:min(430px,100%);height:100%;background:#fff;box-shadow:-10px 0 30px #0002;transition:.3s;padding:28px;display:flex;flex-direction:column}.cart-panel.open{right:0}.cart-head{display:flex;justify-content:space-between;align-items:center}.cart-items{flex:1;overflow:auto;margin:20px 0}.cart-item{display:grid;grid-template-columns:80px 1fr auto;gap:12px;padding:12px 0;border-bottom:1px solid var(--line)}.cart-thumb{width:80px;height:90px;background:center/cover}.remove{border:0;background:none;color:#777;cursor:pointer}.total{border-top:1px solid var(--line);padding-top:15px;font-size:18px;font-weight:600}.checkout-note{font-size:12px;color:#777;margin:12px 0}footer{padding:38px 7vw;background:#101b16;color:#ccd4ce;display:flex;justify-content:space-between;font-size:13px}.footer-brand{font:700 29px "Cormorant Garamond";color:#fff}
-@media(max-width:850px){.links{display:none}.menu{display:block}.nav.open .links{display:flex;position:absolute;top:70px;left:0;right:0;background:var(--paper);color:var(--ink);padding:25px;flex-direction:column}.grid,.story,.contact,.modal{grid-template-columns:1fr}.story-img{min-height:420px}.section-head{display:block}.shopbar{display:block}.sort{margin-top:10px}.gallery{grid-template-columns:1fr 1fr}.wide{grid-column:span 2}.modal-image{min-height:360px}.modal-body{padding:30px}.footer{display:block}}
-</style>
+<link rel="stylesheet" href="css/style.css">
+<script type="application/ld+json">{
+"@context":"https://schema.org","@type":"Organization","name":"Moore Bonsai","description":"Bonsai trees sourced, cultivated and sold in the UK."
+}</script>
 </head>
 <body>
-<nav class="nav" id="nav">
-<a class="brand" href="#home">MOORE BONSAI</a>
-<div class="links"><a href="#shop">Shop</a><a href="#story">Our Approach</a><a href="#gallery">Gallery</a><a href="#journal">Journal</a><a href="#contact">Contact</a></div>
-<div class="nav-actions"><button class="cart-btn" onclick="toggleCart()">Basket <span class="badge" id="count">0</span></button><button class="menu" onclick="document.querySelector('.nav').classList.toggle('open')">☰</button></div>
-</nav>
+<nav class="nav"><div class="wrap nav-in">
+<a class="brand" href="./">MOORE BONSAI</a>
+<button class="menu" aria-label="Open menu">☰</button>
+<div class="links"><a href="shop.html">Shop</a><a href="about.html">Our Approach</a><a href="journal.html">Journal</a><a href="contact.html">Contact</a></div>
+</div></nav>
 
-<header class="hero" id="home"><div class="hero-inner">
-<div class="eyebrow">Sourced • Cultivated • Carefully Chosen</div>
+<header class="hero"><div class="wrap hero-in">
+<div class="eyebrow">Sourced · Cultivated · Carefully Chosen</div>
 <h1>Living art,<br>cultivated<br>with patience.</h1>
 <p>Characterful bonsai trees, thoughtfully sourced and cared for before finding their next home.</p>
-<a class="btn light" href="#shop">Shop the collection</a>
+<div class="hero-actions"><a class="btn alt" href="shop.html">Explore the collection</a><a class="text-link" href="about.html">Discover our approach →</a></div>
 </div></header>
 
-<section id="shop">
-<div class="section-head"><div><div class="eyebrow">The collection</div><h2>Available bonsai</h2></div><p>Browse our current trees. Each listing can be expanded with full details before you enquire or purchase.</p></div>
-<div class="shopbar"><div class="filters"><button class="filter active" onclick="filterProducts('All',this)">All</button><button class="filter" onclick="filterProducts('Pine',this)">Pines</button><button class="filter" onclick="filterProducts('Maple',this)">Maples</button><button class="filter" onclick="filterProducts('Juniper',this)">Junipers</button></div><select class="sort" onchange="sortProducts(this.value)"><option value="featured">Sort: Featured</option><option value="low">Price: Low to high</option><option value="high">Price: High to low</option></select></div>
-<div class="grid" id="products"></div>
-</section>
+<section><div class="wrap">
+<div class="head"><div><div class="eyebrow">The collection</div><h2>Featured bonsai</h2></div><p>Healthy, characterful trees selected for long-term potential.</p></div>
+<div class="grid" id="featured-products"></div>
+</div></section>
 
-<section class="story" id="story"><div class="story-img"></div><div><div class="eyebrow">The Moore Bonsai approach</div><h2>Good bonsai takes time.</h2><p>We believe the best trees are not rushed. From sourcing and initial assessment to pruning, feeding, watering and seasonal work, every tree receives thoughtful attention.</p><p>Our aim is simple: to place healthy, characterful bonsai with people who will enjoy developing them for years to come.</p><div class="stats"><div><strong>01</strong><span>Care first</span></div><div><strong>02</strong><span>Character matters</span></div><div><strong>∞</strong><span>Long-term view</span></div></div><a class="btn" href="#contact">Ask about a tree</a></div></section>
+<section class="story"><div class="wrap story-grid"><div class="story-img"></div><div>
+<div class="eyebrow">The Moore Bonsai approach</div><h2>Good bonsai takes time.</h2>
+<p>From sourcing and assessment to watering, feeding, pruning and seasonal work, each tree receives thoughtful attention.</p>
+<p>Our aim is simple: to place healthy, characterful bonsai with people who will enjoy developing them for years to come.</p>
+<a class="btn" href="about.html">Discover our approach</a>
+</div></div></section>
 
-<section id="gallery"><div class="section-head"><div><div class="eyebrow">The archive</div><h2>Past trees</h2></div><p>Replace these sample images with your own development photography, including before-and-after work.</p></div>
+<section><div class="wrap">
+<div class="head"><div><div class="eyebrow">Notes from the nursery</div><h2>The Bonsai Journal</h2></div><p>Useful care guides, development notes and stories behind the trees.</p></div>
+<div class="grid" id="latest-posts"></div>
+</div></section>
+
+<section class="story"><div class="wrap"><div class="head"><div><div class="eyebrow">The archive</div><h2>Past trees</h2></div><p>A visual record of trees sourced, developed and moved into new homes.</p></div>
 <div class="gallery">
-<div class="tall" style="background-image:url('https://images.unsplash.com/photo-1520699049698-acd2fccb8cc8?auto=format&fit=crop&w=1200&q=85')"></div>
-<div style="background-image:url('https://images.unsplash.com/photo-1599598425947-5202edd56bdb?auto=format&fit=crop&w=900&q=85')"></div>
-<div style="background-image:url('https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=900&q=85')"></div>
-<div class="wide" style="background-image:url('https://images.unsplash.com/photo-1545241047-6083a3684587?auto=format&fit=crop&w=1400&q=85')"></div>
-</div></section>
+<img class="tall" src="images/products/japanese-black-pine.jpg" alt="Japanese Black Pine bonsai">
+<img src="images/products/trident-maple.jpg" alt="Trident Maple bonsai">
+<img src="images/products/shimpaku-juniper.jpg" alt="Shimpaku Juniper bonsai">
+<img class="wide" src="images/journal/great-bonsai.jpg" alt="Bonsai development">
+</div></div></section>
 
-<section class="journal" id="journal"><div class="section-head"><div><div class="eyebrow">Notes from the nursery</div><h2>The Bonsai Journal</h2></div><p>Useful seasonal care notes and stories behind the trees.</p></div>
-<div class="grid">
-<article class="card"><div class="cardimg" style="background-image:url('https://images.unsplash.com/photo-1599598425947-5202edd56bdb?auto=format&fit=crop&w=1200&q=85')"></div><div class="cardbody"><div class="eyebrow">Care guide</div><h3>Watering bonsai through summer</h3><p>A practical approach to keeping roots healthy during hot weather.</p></div></article>
-<article class="card"><div class="cardimg" style="background-image:url('https://images.unsplash.com/photo-1520699049698-acd2fccb8cc8?auto=format&fit=crop&w=1200&q=85')"></div><div class="cardbody"><div class="eyebrow">Development</div><h3>What makes a great tree?</h3><p>Looking beyond age to movement, taper, bark and future potential.</p></div></article>
-<article class="card"><div class="cardimg" style="background-image:url('https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=1200&q=85')"></div><div class="cardbody"><div class="eyebrow">Behind the tree</div><h3>From nursery to new home</h3><p>The journey a bonsai takes before it becomes part of a collection.</p></div></article>
-</div></section>
-
-<section class="contact" id="contact"><div><div class="eyebrow">Get in touch</div><h2>Looking for something particular?</h2><p>Tell us what you're looking for, your experience level and the kind of character you love. We can help you find the right tree.</p><p><strong>Moore Bonsai</strong><br>England, UK<br>Private visits by arrangement</p></div>
-<form class="form" onsubmit="submitEnquiry(event)"><input required name="name" placeholder="Your name"><input required type="email" name="email" placeholder="Email address"><input name="tree" placeholder="Tree you're interested in (optional)"><textarea required name="message" placeholder="Tell us what you're looking for..."></textarea><button class="btn" type="submit">Send enquiry</button><div class="success" id="success">Thank you. The enquiry form is ready to be connected to your email provider or website backend.</div></form></section>
-
-<footer><div><div class="footer-brand">MOORE BONSAI</div>Living art, cultivated with patience.</div><div>© 2026 Moore Bonsai</div></footer>
-
-<div class="modal-bg" id="modal" onclick="if(event.target===this)closeModal()"><div class="modal"><button class="close" onclick="closeModal()">×</button><div class="modal-image" id="modalImage"></div><div class="modal-body"><div class="eyebrow" id="modalType"></div><h2 id="modalName"></h2><p id="modalDesc"></p><p id="modalDetails"></p><div class="price" id="modalPrice"></div><button class="btn" id="modalAction">Add to basket</button></div></div></div>
-
-<aside class="cart-panel" id="cart"><div class="cart-head"><h2>Basket</h2><button class="close" onclick="toggleCart()">×</button></div><div class="cart-items" id="cartItems"></div><div class="total">Total: <span id="total">£0</span></div><div class="checkout-note">Demo checkout: connect Stripe/Shopify/WooCommerce before taking live payments.</div><button class="btn" onclick="checkout()">Proceed to checkout</button></aside>
-
-<script>
-const products=[
-{id:1,name:"Japanese Black Pine",type:"Pine",price:395,details:"Approx. 48cm · Developed in a training pot",desc:"Strong movement, mature bark and a refined silhouette. A beautiful project tree with plenty of future potential.",img:"https://images.unsplash.com/photo-1520699049698-acd2fccb8cc8?auto=format&fit=crop&w=1200&q=85",stock:true},
-{id:2,name:"Trident Maple",type:"Maple",price:275,details:"Approx. 36cm · Healthy developing tree",desc:"Vigorous growth and excellent ramification potential. Ideal for someone wanting to develop a tree over time.",img:"https://images.unsplash.com/photo-1599598425947-5202edd56bdb?auto=format&fit=crop&w=1200&q=85",stock:true},
-{id:3,name:"Shimpaku Juniper",type:"Juniper",price:650,details:"Approx. 42cm · Character specimen",desc:"A characterful tree with aged texture and elegant deadwood. A striking focal point for a collection.",img:"https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=1200&q=85",stock:true},
-{id:4,name:"Japanese Black Pine",type:"Pine",price:220,details:"Approx. 31cm · Developing",desc:"Compact proportions and healthy growth make this a rewarding medium-term project.",img:"https://images.unsplash.com/photo-1545241047-6083a3684587?auto=format&fit=crop&w=1200&q=85",stock:true},
-{id:5,name:"Field Maple",type:"Maple",price:180,details:"Approx. 28cm · Developing",desc:"A charming deciduous tree with a natural structure and strong seasonal interest.",img:"https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=1200&q=85",stock:true},
-{id:6,name:"Juniper Project Tree",type:"Juniper",price:145,details:"Approx. 30cm · Beginner friendly",desc:"A great entry point for someone looking to learn styling and seasonal maintenance.",img:"https://images.unsplash.com/photo-1497250681960-ef046c08a56e?auto=format&fit=crop&w=1200&q=85",stock:false}
-];
-let current=[...products], cart=JSON.parse(localStorage.getItem("mooreCart")||"[]");
-const money=n=>new Intl.NumberFormat("en-GB",{style:"currency",currency:"GBP"}).format(n);
-function render(list=current){document.getElementById("products").innerHTML=list.map(p=>`<article class="product ${p.stock?'':'sold'}"><div class="ribbon ${p.stock?'':'sold'}">${p.stock?'Available':'Sold'}</div><div class="image" style="background-image:url('${p.img}')"></div><div class="product-body"><div class="meta">${p.type} · ${p.details}</div><h3>${p.name}</h3><div class="price">${money(p.price)}</div><div class="actions"><button class="btn outline" onclick="openProduct(${p.id})">View tree</button>${p.stock?`<button class="btn" onclick="add(${p.id})">Add</button>`:`<button class="btn outline" disabled>Sold</button>`}</div></div></article>`).join("")}
-function filterProducts(type,el){document.querySelectorAll(".filter").forEach(x=>x.classList.remove("active"));el.classList.add("active");current=type==="All"?[...products]:products.filter(p=>p.type===type);sortProducts(document.querySelector(".sort").value)}
-function sortProducts(v){let x=[...current];if(v==="low")x.sort((a,b)=>a.price-b.price);if(v==="high")x.sort((a,b)=>b.price-a.price);render(x)}
-function openProduct(id){let p=products.find(x=>x.id===id);document.getElementById("modalImage").style.backgroundImage=`url('${p.img}')`;document.getElementById("modalType").textContent=p.type+" · "+(p.stock?"Available":"Sold");document.getElementById("modalName").textContent=p.name;document.getElementById("modalDesc").textContent=p.desc;document.getElementById("modalDetails").textContent=p.details;document.getElementById("modalPrice").textContent=money(p.price);let b=document.getElementById("modalAction");b.disabled=!p.stock;b.textContent=p.stock?"Add to basket":"Sold";b.onclick=()=>{add(p.id);closeModal()};document.getElementById("modal").style.display="block"}
-function closeModal(){document.getElementById("modal").style.display="none"}
-function add(id){let p=products.find(x=>x.id===id);if(!p.stock)return;let existing=cart.find(x=>x.id===id);if(!existing)cart.push({id});saveCart();toggleCart(true)}
-function remove(id){cart=cart.filter(x=>x.id!==id);saveCart()}
-function saveCart(){localStorage.setItem("mooreCart",JSON.stringify(cart));renderCart()}
-function renderCart(){let items=cart.map(x=>products.find(p=>p.id===x.id)).filter(Boolean);document.getElementById("count").textContent=items.length;document.getElementById("cartItems").innerHTML=items.length?items.map(p=>`<div class="cart-item"><div class="cart-thumb" style="background-image:url('${p.img}')"></div><div><strong>${p.name}</strong><div>${money(p.price)}</div></div><button class="remove" onclick="remove(${p.id})">Remove</button></div>`).join(""):`<p>Your basket is empty.</p>`;document.getElementById("total").textContent=money(items.reduce((s,p)=>s+p.price,0))}
-function toggleCart(force){document.getElementById("cart").classList.toggle("open",force===true?true:undefined);renderCart()}
-function checkout(){alert("Checkout is not connected yet. Connect this button to Stripe, Shopify or WooCommerce before launch.")}
-function submitEnquiry(e){e.preventDefault();document.getElementById("success").style.display="block";e.target.reset()}
-window.addEventListener("scroll",()=>document.getElementById("nav").classList.toggle("scrolled",scrollY>30));render();renderCart();
-</script>
+<script src="js/app.js"></script>
 </body></html>
