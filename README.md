@@ -1,4 +1,7 @@
-# Moore Bonsai — Version 3.5
+# Horizon Bonsai — Version 3.5.3
+
+This build rebrands the website from Horizon Bonsai to **Horizon Bonsai** and integrates the supplied Horizon Bonsai logo throughout the site.
+
 
 ## GitHub Pages / static CMS-style website
 
@@ -126,3 +129,5 @@ When adding a new product or article, create the JSON file as before and generat
 - Replaced the demo image files that had SVG content saved with a `.jpg` extension. Demo artwork is now valid `.svg`.
 - Product detail pages have a darker forest/khaki/grey palette, breadcrumbs and information cards.
 - Replace demo `.svg` files with your own real `.jpg`, `.jpeg`, `.png` or `.webp` photographs and update each JSON `image` field accordingly.
+## Horizon Bonsai 3.6 visual redesign
+This package applies the approved Horizon Bonsai homepage direction: deep forest green, warm parchment, gold accents, the supplied moon/tree logo, an editorial hero, quick navigation panels and a matching footer. It remains a static GitHub Pages site and keeps the existing shop, journal, product JSON and static SEO product/article structure.

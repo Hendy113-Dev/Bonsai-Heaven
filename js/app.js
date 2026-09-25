@@ -56,7 +56,7 @@ async function init(){
  if(article){const id=new URLSearchParams(location.search).get("id");const p=posts.find(x=>x.id===id);if(p) article.innerHTML=postDetail(p); else article.innerHTML="<h1>Article not found</h1><a class='btn' href='journal.html'>Back to journal</a>";}
 }
 function productDetail(p){
- document.title=p.seoTitle||p.name+" | Moore Bonsai";
+ document.title=p.seoTitle||p.name+" | Horizon Bonsai";
  return `<div class="wrap article-layout"><div><img src="${p.image}" alt="${escapeHtml(p.name)} — ${escapeHtml(p.species)} bonsai"></div><div>
  <div class="eyebrow">${escapeHtml(p.category)} · ${escapeHtml(p.status)}</div><h1>${escapeHtml(p.name)}</h1><p class="muted">${escapeHtml(p.species)} · ${escapeHtml(p.height)} · ${escapeHtml(p.pot)}</p>
  <div class="price">${money(p.price)}</div><p>${escapeHtml(p.description)}</p><h3>Care</h3><p>${escapeHtml(p.care)}</p>
@@ -64,8 +64,8 @@ function productDetail(p){
  <script type="application/ld+json">${JSON.stringify({"@context":"https://schema.org","@type":"Product","name":p.name,"description":p.description,"image":[p.image],"offers":{"@type":"Offer","priceCurrency":"GBP","price":p.price.toFixed(2),"availability":p.status==="available"?"https://schema.org/InStock":"https://schema.org/SoldOut","url":location.href}})}</script>`;
 }
 function postDetail(p){
- document.title=p.seoTitle||p.title+" | Moore Bonsai";
- return `<div class="wrap article-layout"><article><div class="eyebrow">${escapeHtml(p.category)}</div><h1>${escapeHtml(p.title)}</h1><p class="muted">${formatDate(p.date)}</p><img src="${p.image}" alt="${escapeHtml(p.title)}"><div class="article-content"><p><strong>${escapeHtml(p.excerpt)}</strong></p>${p.content.map(x=>`<p>${escapeHtml(x)}</p>`).join("")}</div></article><aside><div class="panel"><div class="eyebrow">Moore Bonsai</div><h3>Looking for a tree?</h3><p>Browse the current collection or get in touch about a particular species or style.</p><a class="btn" href="shop.html">View available trees</a></div></aside></div>`;
+ document.title=p.seoTitle||p.title+" | Horizon Bonsai";
+ return `<div class="wrap article-layout"><article><div class="eyebrow">${escapeHtml(p.category)}</div><h1>${escapeHtml(p.title)}</h1><p class="muted">${formatDate(p.date)}</p><img src="${p.image}" alt="${escapeHtml(p.title)}"><div class="article-content"><p><strong>${escapeHtml(p.excerpt)}</strong></p>${p.content.map(x=>`<p>${escapeHtml(x)}</p>`).join("")}</div></article><aside><div class="panel"><div class="eyebrow">Horizon Bonsai</div><h3>Looking for a tree?</h3><p>Browse the current collection or get in touch about a particular species or style.</p><a class="btn" href="shop.html">View available trees</a></div></aside></div>`;
 }
 document.addEventListener("DOMContentLoaded",init);
 
