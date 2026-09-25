@@ -131,3 +131,22 @@ When adding a new product or article, create the JSON file as before and generat
 - Replace demo `.svg` files with your own real `.jpg`, `.jpeg`, `.png` or `.webp` photographs and update each JSON `image` field accordingly.
 ## Horizon Bonsai 3.6 visual redesign
 This package applies the approved Horizon Bonsai homepage direction: deep forest green, warm parchment, gold accents, the supplied moon/tree logo, an editorial hero, quick navigation panels and a matching footer. It remains a static GitHub Pages site and keeps the existing shop, journal, product JSON and static SEO product/article structure.
+
+
+## Version 3.6.1 changes
+- Header logo now uses `object-fit: contain`, so the full Horizon Bonsai logo is visible instead of cropped.
+- Removed the duplicate HTML quote from the homepage hero; the wording already present in the hero artwork remains.
+- Added `gallery.html` and Gallery navigation.
+
+### Adding gallery photos
+1. Put your image in `images/gallery/` (JPG, PNG or WebP recommended).
+2. Open `gallery.json`.
+3. Add an entry like:
+```json
+{
+  "image": "images/gallery/my-bonsai.jpg",
+  "title": "Japanese Maple",
+  "caption": "Spring foliage after repotting."
+}
+```
+4. Add a comma between entries, commit the image and `gallery.json`, and GitHub Pages will update the gallery automatically.
