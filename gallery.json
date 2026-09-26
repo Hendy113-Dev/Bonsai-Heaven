@@ -5,7 +5,11 @@
     "caption": "A bonsai from the Horizon collection."
   },
   {"image": "images/gallery/horizon-creation.png",
-    "title": "Horizon Bonsai",
+    "title": "Miniature Bonsai",
     "caption": "A bonsai created from the roots!."
+  },
+  {"image": "images/gallery/horizon-creation2.png",
+    "title": "A Chinese elm",
+    "caption": "Also known as ''Ulmus parvifolia''."
   }
 ]
