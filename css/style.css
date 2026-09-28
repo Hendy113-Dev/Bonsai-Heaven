@@ -22,7 +22,7 @@ section{padding:86px 0}.head{display:flex;justify-content:space-between;gap:30px
 .gallery-page::before{content:"";position:absolute;inset:0;z-index:-3;pointer-events:none;background:radial-gradient(circle at 14% 14%,rgba(205,164,95,.055),transparent 27%),radial-gradient(circle at 85% 17%,rgba(11,40,30,.025),transparent 24%),linear-gradient(180deg,#f5f0e4 0%,#eee7d7 100%)}
 .gallery-page::after{content:"";position:absolute;inset:0;z-index:-2;pointer-events:none;opacity:.20;background-image:radial-gradient(rgba(93,88,72,.19) .55px,transparent .7px);background-size:7px 7px}
 .gallery-page section{position:relative;padding:42px 0 58px}
-.gallery-page section::after{content:"";position:absolute;top:-4px;right:3.5vw;width:min(590px,39vw);height:290px;background:url('../images/gallery-bonsai-mark.svg') center/contain no-repeat;opacity:.28;pointer-events:none;z-index:-1}
+.gallery-page section::after{content:"";position:absolute;top:-4px;right:3.5vw;width:min(590px,39vw);height:290px;background:url('../images/gallery-bonsai-mark.png') center/contain no-repeat;opacity:.28;pointer-events:none;z-index:-1}
 .gallery-page .wrap{width:min(1540px,93vw)}
 .gallery-intro{max-width:720px;margin:0 0 30px}
 .gallery-intro .eyebrow{color:#b88e4a;letter-spacing:.30em;font-size:11px}
@@ -49,21 +49,3 @@ section{padding:86px 0}.head{display:flex;justify-content:space-between;gap:30px
 @media(max-width:1180px){.gallery-masonry{grid-template-columns:repeat(4,minmax(0,1fr))!important}.gallery-page section::after{width:46vw;opacity:.20}}
 @media(max-width:980px){.gallery-masonry{grid-template-columns:repeat(3,minmax(0,1fr))!important}.gallery-page section{padding-top:36px}.gallery-page section::after{width:52vw;right:-8vw;opacity:.15}}
 @media(max-width:720px){.gallery-page{min-height:0}.gallery-page section{padding:34px 0 48px}.gallery-page section::after{top:48px;right:-150px;width:430px;height:220px;opacity:.08}.gallery-page .wrap{width:90vw;max-width:90vw}.gallery-intro{max-width:100%;margin-bottom:25px}.gallery-intro h1{font-size:clamp(46px,14vw,60px)!important;margin-bottom:15px!important}.gallery-intro p{font-size:16px;line-height:1.5}.gallery-masonry{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:8px!important}.gallery-item{aspect-ratio:4/3!important}.gallery-lightbox{padding:60px 10px 78px}.gallery-lightbox img{max-width:100%;max-height:78vh}.lightbox-close{top:14px;right:16px;font-size:40px}.lightbox-nav{font-size:40px;padding:12px}.lightbox-prev{left:2px}.lightbox-next{right:2px}.lightbox-caption{bottom:18px;width:82vw;font-size:14px}}
-
-
-/* === Gallery layout + fixed decorative bonsai mark override === */
-.gallery-page section{position:relative;z-index:1}
-.gallery-page .wrap{position:relative;z-index:2}
-.gallery-page section::after{content:"";position:fixed;top:150px;right:3vw;width:min(520px,34vw);height:300px;background:url('../images/gallery-bonsai-mark.svg') center/contain no-repeat;opacity:.10;pointer-events:none;z-index:0}
-.gallery-masonry{display:grid!important;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))!important;gap:12px!important;width:100%!important;columns:auto!important}
-.gallery-item{aspect-ratio:4/3!important}
-
-@media(max-width:980px){
-  .gallery-page section::after{top:135px;right:-2vw;width:min(430px,42vw);height:250px;opacity:.075}
-  .gallery-masonry{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))!important}
-}
-
-@media(max-width:720px){
-  .gallery-page section::after{top:125px;right:-70px;width:300px;height:190px;opacity:.05}
-  .gallery-masonry{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:8px!important}
-}
