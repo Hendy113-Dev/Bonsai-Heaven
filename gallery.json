@@ -11,5 +11,18 @@
   {"image": "images/gallery/horizon-creation2.png",
     "title": "A Chinese elm",
     "caption": "Also known as ''Ulmus parvifolia''."
+  },
+  {
+    "image": "images/gallery/horizon-test1.jpg",
+    "title": "Test",
+    "caption": "Test Test Test."
+  },
+  {"image": "images/gallery/horizon-test2.png",
+    "title": "Test",
+    "caption": "Test Test Test."
+  },
+  {"image": "images/gallery/horizon-test3.png",
+    "title": "Test",
+    "caption": "Test Test Test."
   }
 ]
